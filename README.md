@@ -1,4 +1,3 @@
-===================================================
 Crypto Dashboard Project (Tkinter + APIs + OOP)
 ===================================================
 This project is built to practice Python object-oriented programming, GUI development with Tkinter, and real-time data handling using the Binance REST and WebSocket APIs.
