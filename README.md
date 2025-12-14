@@ -87,21 +87,38 @@ The following features go BEYOND the assignment’s core requirements:
 Project Structure
 -----------------------------------------------------
 crypto_dashboard/
+
 │
+
 ├── main.py                  # Application entry point
+
+
 ├── config.py                # Colors, symbols, preferences file
+
 ├── requirements.txt         # Python dependencies
+
 │
+
 ├── components/
+
 │   ├── __init__.py
+
 │   ├── orderbook.py         # OrderBookPanel
+
 │   ├── price_panels.py      # BigPricePanel, TradesPanel, BestPricePanel
+
 │   └── technical.py         # Charts and volume-related panels
+
 │
+
 ├── utils/
+
 │   ├── __init__.py
+
 │   └── binance_api.py       # Binance REST API helper functions
+
 │
+
 └── README.md
 
 -------------------------------------------------------
